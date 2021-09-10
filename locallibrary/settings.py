@@ -30,7 +30,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = [
-    'floating-stream-78680.herokuapp.com'
+    'floating-stream-78680.herokuapp.com',
+    '127.0.0.1',
 ]
 
 
